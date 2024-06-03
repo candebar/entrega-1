@@ -1,0 +1,34 @@
+.contenedorpadre{
+   background-image: url(./Imagenes/fondo-azul-copa-america-2024.jpg);
+}
+.titular{
+    height: 100px;
+    text-align: center;
+    margin: 20px 10px 5px 10px;
+}
+.primerbloque{
+    display: grid;
+    grid-template-areas: "tabgrupoa" "tabgrupob";
+    grid-template-columns: 650px 650px;
+    grid-column-gap: 20px;
+    padding-left: 1%;
+}
+.tabgrupoa{
+    height: 300px;
+}
+.tabgrupob{
+    height: 300px;
+}
+.segundobloque{
+    display: grid;
+    grid-template-areas: "tabgrupoa" "tabgrupob";
+    grid-template-columns: 650px 650px;
+    grid-column-gap: 20px;
+    padding-left: 1%; 
+}
+.tabgrupoc{
+    height: 300px;
+}
+.tabgrupod{
+    height: 300px;
+}
