@@ -1,0 +1,26 @@
+.contenedor-padre {
+    background-image: url(./Imagenes/fondo-azul-copa-america-2024.jpg);
+}
+
+.fotocentral {
+    display: flex;
+    justify-content: center;
+}
+
+.grupo-d {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(4, 1, 54, 0.2);
+}
+
+@media (min-width:200px) and (max-width:600px) {
+    .contenedor-nav {
+        background-color: rgb(185, 35, 35);
+    }
+
+    .fotocentral {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+}
