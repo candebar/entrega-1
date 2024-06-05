@@ -1,4 +1,6 @@
 Mi proyecto se basa en una página informativa sobre el torneo de fútbol "Copa América" a realizarse este año en Estados Unidos. Se pueden encontrar imágenes y videos alusivos, información sobre los partidos, los estadios en los que se llevarán a cabo, entre otras cosas.
 Las dificultades que encontré se relacionaron mas que nada con el posicionamiento de los diferentes bloques en la zona de la página que yo quería. Me costó mucho centrar la mayoría de los divs. También me costó manejar el carrusel para que se adapte a lo que yo quería, pero creo que pude lograrlo.
 Algo que quise agregar pero no pude porque no me salió fue la implementación de un botón modal con bootstrap, quería poner un formulario en el mismo pero no pude hacer funcional el botón así que directamente lo excluí del proyecto.
+Una ultima dificultad que encuentro a ultimo momento cuando creé la página con Git Hub Pages es que la pestaña del grupo A no se ve bien, cuando la abria y controlaba con Live Server se reproducía totalmente bien, por lo que no me había percatado del error hasta último momento. Chequeo el código y no veo el error, así que espero una observación si puede ser.
 Lo que me gustaría mejorar sería poder manejar totalmente el posicionamiento con grid y flex, poder determinar cuando es mejor aplicar cada uno, y qué propiedades es mejor aplicar en cada caso.
+¡Muchas gracias!
