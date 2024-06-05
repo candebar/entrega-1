@@ -39,3 +39,28 @@ transition: height 1s;
 .tabla1:hover{
     width: 600px;
 }
+
+@media (min-width:200px) and (max-width:600px){
+    .contenedor-nav{
+        background-color: rgb(185, 35, 35);}
+        .contenedor1{
+            display: inline;
+        }
+    .mapa{
+        display: inline;
+        height: 120px;
+        width: 90%;
+        margin-left: 5px;
+    }
+    .fotomapa{
+        display: block;
+        width: 100%;
+        margin-left: 1px;
+    }
+    .tabla1{
+        display: inline;
+        text-align: left;
+        align-items: flex-start;
+        width: 100%;
+    }
+}

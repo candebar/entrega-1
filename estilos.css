@@ -1,10 +1,5 @@
-/* .contenedor-nav { */
-  /* background-color: rgb(36, 36, 150); */
-
-
 .cuerpototal {
-    /* background-color: rgb(40, 40, 204); */
-    background-image:url(./Imagenes/fondo-azul-copa-america-2024.jpg);
+    background-image: url(./Imagenes/fondo-azul-copa-america-2024.jpg);
 }
 
 .titulo1 {
@@ -30,8 +25,9 @@
 
 
 }
-.imagenes-carru{
-height: 400px;
+
+.imagenes-carru {
+    height: 400px;
 }
 
 .contenedorcards {
@@ -47,7 +43,8 @@ height: 400px;
     margin: 15px 15px 10px 15px;
     transition: width 2s;
 }
-.tarjeta1:hover{
+
+.tarjeta1:hover {
     width: 600px;
 }
 
@@ -59,6 +56,36 @@ height: 400px;
     transition: width 2s;
 
 }
-.tarjeta2:hover{
+
+.tarjeta2:hover {
     width: 600px;
+}
+
+@media (min-width:200px) and (max-width:600px){
+    .video {
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .carrusel1 {
+        justify-content: left;
+        align-items: flex-start;
+        margin: 25px 10px 25px 10px;
+        width: 100%;
+    }
+    .contenedor-nav{
+        background-color: rgb(197, 35, 35);
+    }
+   .contenedorcards{
+    display: inline;
+    justify-content: left;
+    align-items: flex-start;
+   } 
+   .tarjeta1{
+    display: inline;
+   }
+   .tarjeta2{
+    display: inline;
+   }
+
 }
